@@ -18,8 +18,10 @@ namespace Alliance.Controllers
             {
                 Id = 1,
                 FirstName = "John",
+                MiddleName = "Hello",
                 LastName = "Doe",
-                Position = "Full Stack Dev"
+                Role = "Full Stack Dev",
+                DateJoined = "5/21/2001",
             }
         };
 
@@ -53,8 +55,10 @@ namespace Alliance.Controllers
             if (emp == null)
                 return NotFound();
             emp.FirstName = employee.FirstName;
+            emp.MiddleName = employee.MiddleName;
             emp.LastName = employee.LastName;
-            emp.Position = employee.Position;
+            emp.Role = employee.MiddleName;
+            emp.DateJoined = employee.DateJoined;
 
             return Ok(employees);
         }

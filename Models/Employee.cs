@@ -7,9 +7,13 @@ namespace Alliance.Models
 
         public string FirstName { get; set; } = string.Empty;
 
+        public string MiddleName { get; set; } = string.Empty;
+
         public string LastName { get; set; } = string.Empty;
 
-        public string Position { get; set; } = string.Empty;
+        public string Role { get; set; } = string.Empty;
+
+        public string DateJoined { get; set; } = string.Empty;
 
 
 

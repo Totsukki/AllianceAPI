@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQ9muu2H8SWxhohqurQiY2tD+InFmGHY0sCMONazblLNLVQZUXfQFgPym8V9ujplgCaxzGiUcCVnRmMktjbuZQ==",
+  "dgSpecHash": "AKHfEC/VH1zar6n05hNI+ObPHkKMofFkGhWkNeG3BwBwn7Ip4291yPTAg7t2el/rE+/wWiy7WR8JEz3Lr9Mghg==",
   "success": true,
-  "projectFilePath": "/Users/reynaldsampelo/Projects/Alliance/Alliance/Alliance.csproj",
+  "projectFilePath": "/Users/reynaldsampelo/Projects/AllianceAPI/Alliance.csproj",
   "expectedPackageFiles": [
     "/Users/reynaldsampelo/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/reynaldsampelo/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

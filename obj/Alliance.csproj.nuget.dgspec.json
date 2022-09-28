@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/reynaldsampelo/Projects/Alliance/Alliance/Alliance.csproj": {}
+    "/Users/reynaldsampelo/Projects/AllianceAPI/Alliance.csproj": {}
   },
   "projects": {
-    "/Users/reynaldsampelo/Projects/Alliance/Alliance/Alliance.csproj": {
+    "/Users/reynaldsampelo/Projects/AllianceAPI/Alliance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/reynaldsampelo/Projects/Alliance/Alliance/Alliance.csproj",
+        "projectUniqueName": "/Users/reynaldsampelo/Projects/AllianceAPI/Alliance.csproj",
         "projectName": "Alliance",
-        "projectPath": "/Users/reynaldsampelo/Projects/Alliance/Alliance/Alliance.csproj",
+        "projectPath": "/Users/reynaldsampelo/Projects/AllianceAPI/Alliance.csproj",
         "packagesPath": "/Users/reynaldsampelo/.nuget/packages/",
-        "outputPath": "/Users/reynaldsampelo/Projects/Alliance/Alliance/obj/",
+        "outputPath": "/Users/reynaldsampelo/Projects/AllianceAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/reynaldsampelo/.nuget/NuGet/NuGet.Config"
@@ -63,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

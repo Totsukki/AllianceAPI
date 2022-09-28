@@ -57,7 +57,7 @@ namespace Alliance.Controllers
             emp.FirstName = employee.FirstName;
             emp.MiddleName = employee.MiddleName;
             emp.LastName = employee.LastName;
-            emp.Role = employee.MiddleName;
+            emp.Role = employee.Role;
             emp.DateJoined = employee.DateJoined;
 
             return Ok(employees);

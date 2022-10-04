@@ -18,9 +18,16 @@ namespace Alliance.Controllers
             {
                 Id = 1,
                 FirstName = "John",
-                MiddleName = "Hello",
+                MiddleName = "Ducking",
                 LastName = "Doe",
+                Age = 32,
+                Sex = "Male",
+                CivilStatus = "Single",
+                Birthday = "5/6/1991",
+                ContactNumber = "09420691234",
+                EmailAddress = "johndoe@gmail.com",
                 Role = "Full Stack Dev",
+                ContractType = "Regular",
                 DateJoined = "5/21/2001",
             }
         };
@@ -57,7 +64,14 @@ namespace Alliance.Controllers
             emp.FirstName = employee.FirstName;
             emp.MiddleName = employee.MiddleName;
             emp.LastName = employee.LastName;
+            emp.Age = employee.Age;
+            emp.Sex = employee.Sex;
+            emp.CivilStatus = employee.CivilStatus;
+            emp.Birthday = employee.Birthday;
+            emp.ContactNumber = employee.ContactNumber;
+            emp.EmailAddress = employee.EmailAddress;
             emp.Role = employee.Role;
+            emp.ContractType = employee.ContractType;
             emp.DateJoined = employee.DateJoined;
 
             return Ok(employees);
